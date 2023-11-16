@@ -5,7 +5,7 @@ import numpy as np
 class FeatureExtractor:
     def __init__(
         self,
-        feature_size=80,
+        feature_size=128,
         sampling_rate=16000,
         hop_length=160,
         chunk_length=30,
